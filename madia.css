@@ -1,0 +1,51 @@
+@media only screen and (max-width: 430px) {
+    body {
+        overflow-y: scroll 0;
+        height: 100vh;
+    } 
+
+    .container {
+        display: inline-block;
+        width: 280px;
+        height: 600px;
+    }
+
+    .header {
+        height: 200px;
+        padding: 10px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .header__text {
+        font-size: 13px;
+        letter-spacing: 1px;
+        line-height: 15px;
+    }
+
+    .left {
+        width: 280px;
+        height: 200px;
+        padding: 10px;
+        border-radius: 0;
+    }
+
+    .right {
+        width: 280px;
+        padding: 10px ;
+        border-radius:  0 0 10px 10px ;
+    }
+
+    .left-right {
+        display: block;
+    }
+
+    .section__accsess {
+        font-size: 17px;
+        padding: 10px 0;
+    }
+
+    .section__btn {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
