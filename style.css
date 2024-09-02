@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(205, 218, 215);
+}
+
+.container {
+    display: inline-block;
+    width: 600px;
+    height: 450px;
+}
+
+.header {
+    height: 50%;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 20px 20px 0 0;
+}
+
+.header__title {
+    color: rgb(20, 147, 147);
+    padding-bottom: 20px;
+}
+
+.header__heading {
+    color: rgb(161, 220, 64);
+    padding-bottom: 20px;
+}
+
+.header__text {
+    color: rgb(194, 190, 190);
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.left-right {
+    display: inline-flex;
+}
+
+.left {
+    width: 300px;
+    height: 225px;
+    padding: 30px;
+    background-color: rgb(20, 147, 147);
+    border-radius:  0 0 0 20px;
+}
+
+.right {
+    width: 300px;
+    padding: 30px;
+    background-color: rgb(27, 188, 188);
+    border-radius:  0 0 20px 0 ;
+}
+
+.section__title {
+    color:aliceblue;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.section__pey {
+    display: inline-flex;
+    align-items: center;
+    left: 5px;
+}
+
+.section__price{
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    margin-right: 5px;
+}
+
+.section__month {
+    color: rgb(194, 190, 190);
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.section__accsess {
+    color: aliceblue;
+    font-size: 15px;
+    padding: 15px 0;
+    /* width: 240px; */
+}
+
+.section__btn {
+    width: 223px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(139, 226, 33);
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.section__btn:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.section__text {
+    color: aliceblue;
+    opacity: 0.6;
+    font-weight: 300;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 18px;
+}
+
